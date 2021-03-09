@@ -13,6 +13,13 @@
         </router-link>
         <router-link
           v-if="!isAuthenticated"
+          to="/signup"
+          class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
+        >
+          Sign Up
+        </router-link>
+        <router-link
+          v-if="!isAuthenticated"
           to="/login"
           class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
         >
